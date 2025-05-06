@@ -1,2 +1,20 @@
 @import 'tailwindcss';
 @import '@nuxt/ui';
+
+@theme static {
+  --font-sans: 'Montserrat', sans-serif;
+
+  --breakpoint-3xl: 1920px;
+}
+
+.bg-primary {
+  background-color: #d7181f;
+}
+
+.text-primary {
+  color: #d7181f;
+}
+
+.hover\:bg-primary:hover {
+  background-color: #d7181f; /* Replace with your preferred hover color */
+}

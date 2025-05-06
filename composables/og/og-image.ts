@@ -1,11 +1,11 @@
 import siteMeta from '@/site';
-import { heroImageUrl } from '@/utils/hero';
-import { primary, secondary } from '@/utils/colors';
+import { useOptimizeImage } from './optimize-image';
 
 export const useOgImage = () => {
   const { title, logo, description, author, twitter } = siteMeta;
-  const fromBg = secondary;
-  const toBg = primary;
+
+  const fromBg = '#000000'; // '#000000'; // '#1E1E1E'; // '#ffffff';
+  const toBg = '#000000'; // '#000000'; // '#ffffff'; // '#ffffff';
 
   const ogImageOptions = {
     component: 'OgCard',
@@ -21,7 +21,7 @@ export const useOgImage = () => {
   };
 
   const route = useRoute();
-  const ogImage = computed(() => (route.meta.ogImage || heroImageUrl) as string);
+  const ogImage = computed(() => route.meta.ogImage as string);
 
   const { optimizeImage } = useOptimizeImage();
   const theOgImageOptimized = {

@@ -14,6 +14,7 @@
         "@nuxtjs/critters": "^0.9.0",
         "@nuxtjs/seo": "^3.0.3",
         "@pinia/nuxt": "^0.11.0",
+        "@unhead/schema": "^2.0.8",
         "@vueuse/core": "^13.1.0",
         "@vueuse/nuxt": "^13.1.0",
         "eslint": "^9.0.0",
@@ -587,6 +588,8 @@
     "@ungap/structured-clone": ["@ungap/structured-clone@1.3.0", "", {}, "sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g=="],
 
     "@unhead/addons": ["@unhead/addons@2.0.8", "", { "dependencies": { "@rollup/pluginutils": "^5.1.4", "estree-walker": "^3.0.3", "magic-string": "^0.30.17", "mlly": "^1.7.4", "ufo": "^1.6.1", "unplugin": "^2.3.2", "unplugin-ast": "^0.14.6" } }, "sha512-FnFBo10ot3flopxgZYUjnJ+r4voZ7/wiPaOod5evShy/3NtC4aIZdma4JLcpt+HtBs9l4zH4SVneYWFrTRXVtg=="],
+
+    "@unhead/schema": ["@unhead/schema@2.0.8", "", {}, "sha512-6kFBhyO0z1eawG4RfveAa/NA1UNIHSk+ZHR/iJOWZze9LqwrrsYsIINmyo3XgMQ8BRb4WUfbJSlivHFMZSNFaQ=="],
 
     "@unhead/schema-org": ["@unhead/schema-org@2.0.8", "", { "dependencies": { "defu": "^6.1.4", "ohash": "^2.0.11", "ufo": "^1.6.1", "unhead": "2.0.8" }, "peerDependencies": { "@unhead/react": "2.0.8", "@unhead/solid-js": "2.0.8", "@unhead/svelte": "2.0.8", "@unhead/vue": "2.0.8" }, "optionalPeers": ["@unhead/react", "@unhead/solid-js", "@unhead/svelte", "@unhead/vue"] }, "sha512-AR2xdPggAQA+9+qWDw/jM8tMWXASVVCyHNi1vVd+q7qMRs87P6jt05dZ5z5JmutUoUE+mFfGYXisRnjv3y8jTA=="],
 

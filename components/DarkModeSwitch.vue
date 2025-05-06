@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { isDark, toggleDark } from '@/composables/dark';
+import { isDark, toggleDark } from '@/composables/theme/dark';
 
 const mounted = ref(false);
 
