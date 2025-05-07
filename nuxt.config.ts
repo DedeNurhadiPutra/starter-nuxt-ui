@@ -1,4 +1,5 @@
 import siteMeta from './site';
+
 // // https://nuxt.com/docs/api/configuration/nuxt-config
 const { title, description, url, defaultLocale, identity, twitter, trailingSlash, titleSeparator } = siteMeta;
 
@@ -62,6 +63,10 @@ export default defineNuxtConfig({
     //
     // disable at a global level
     // runtimeCacheStorage: false,
+  },
+
+  image: {
+    dir: 'assets/img'
   },
 
   components: [
